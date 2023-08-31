@@ -73,11 +73,11 @@
             //              |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp PRINTSCREEN  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                &kp         &kp                &kp              &kp      &kp       &kp
-     &bt BT_CLR  &kp NUMBER_1  &kp NUMBER_2         &kp H  &kp NUMBER_3  &kp NUMBER_4                          &kp PG_UP    &kp HOME             &kp UP          &kp END   &kp N0       &kp
-            &kp  &kp NUMBER_4         &kp S         &kp D         &kp F      &kp CLCK                          &kp PG_DN    &kp LEFT           &kp DOWN        &kp RIGHT  &kp DEL  &kp BSPC
-      &kp LCTRL         &kp E         &kp X         &kp C         &kp V         &kp P       &to 0  &kp  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP      &kp       &kp
-                                      &kp B       &lt 0 0         &kp M     &kp SPACE  &kp ESCAPE  &kp               &kp         &kp                &kp              &kp
+&kp PRINTSCREEN  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                &trans      &trans             &trans           &trans   &trans    &trans
+     &bt BT_CLR  &kp NUMBER_1  &kp NUMBER_2         &kp H  &kp NUMBER_3  &kp NUMBER_4                             &kp PG_UP    &kp HOME             &kp UP          &kp END   &kp N0    &trans
+         &trans  &kp NUMBER_4         &kp S         &kp D         &kp F      &kp CLCK                             &kp PG_DN    &kp LEFT           &kp DOWN        &kp RIGHT  &kp DEL  &kp BSPC
+      &kp LCTRL         &kp E         &kp X         &kp C         &kp V         &kp P       &to 0  &trans  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &trans    &trans
+                                      &kp B       &lt 0 X         &kp M     &kp SPACE  &kp ESCAPE  &trans            &trans      &trans             &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
