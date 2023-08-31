@@ -30,11 +30,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&lt 2 PRINTSCREEN  &kp N1     &kp N2        &kp N3     &kp N4       &kp N5                                &kp N6   &kp N7     &kp N8     &kp N9         &kp N0  &kp RIGHT_BRACKET
-          &kp TAB   &kp Q      &kp W         &kp F      &kp P        &kp G                                 &kp J    &kp L      &kp U      &kp Y  &kp SEMICOLON   &kp LEFT_BRACKET
-     &kp LEFT_ALT   &kp A      &kp R         &kp S      &kp T        &kp D                                 &kp H    &kp N      &kp E      &kp I          &kp O            &kp SQT
- &kp LEFT_CONTROL   &kp Z      &kp X         &kp C      &kp V        &kp B       &to 3      &to 1          &kp K    &kp M  &kp COMMA    &kp DOT       &kp FSLH      &kp BACKSLASH
-                           &kp GRAVE  &kp LEFT_GUI  &kp LSHFT  &lt 1 SPACE  &kp ESCAPE  &kp ENTER  &kp BACKSPACE  &kp DEL  &kp EQUAL  &kp MINUS
+&lt 2 PRINTSCREEN  &kp N1     &kp N2        &kp N3     &kp N4       &kp N5                                &kp N6            &kp N7       &kp N8     &kp N9         &kp N0  &kp RIGHT_BRACKET
+          &kp TAB   &kp Q      &kp W         &kp F      &kp P        &kp G                                 &kp J             &kp L        &kp U      &kp Y  &kp SEMICOLON   &kp LEFT_BRACKET
+     &kp LEFT_ALT   &kp A      &kp R         &kp S      &kp T        &kp D                                 &kp H             &kp N        &kp E      &kp I          &kp O            &kp SQT
+          &kp DEL   &kp Z      &kp X         &kp C      &kp V        &kp B       &to 3      &to 1          &kp K             &kp M    &kp COMMA    &kp DOT       &kp FSLH      &kp BACKSLASH
+                           &kp GRAVE  &kp LEFT_GUI  &kp LSHFT  &lt 1 SPACE  &kp ESCAPE  &kp ENTER  &kp BACKSPACE  &kp LEFT_CONTROL  &lt 1 EQUAL  &kp MINUS
             >;
 
             sensor-bindings =
@@ -52,11 +52,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-      &trans        &kp F1          &kp F2          &kp F3           &kp F4            &kp F5                                   &kp F6          &kp F7         &kp F8           &kp F9               &kp F10              &kp MINUS
-&kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5    &kp NUMBER_6     &kp NUMBER_7      &kp NUMBER_8                                &kp EQUAL       &kp MINUS       &kp LBRC  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp NUMBER_2         &kp T          &kp AT    &kp UP_ARROW            &kp R             &kp E                           &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW             &kp COLON          &kp SEMICOLON
-   &kp LCTRL         &kp M  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_PLAY_PAUSE       &to 2        &to 0        &kp LBKT        &kp RBKT  &kp AMPERSAND         &kp FSLH              &kp BSLH                 &trans
-                                     &kp B           &kp H            &kp E         &kp SPACE  &kp ESCAPE  &lt 0 ENTER      &kp KP_DOT    &kp KP_COMMA      &kp ENTER         &kp BSPC
+ &kp PRINTSCREEN        &kp F1         &kp F2        &kp F3             &kp F4            &kp F5                                    &kp F6          &kp F7           &kp F8                &kp F9                &kp F10   &kp LEFT_BRACKET
+   &kp LESS_THAN  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4      &kp NUMBER_5                              &kp NUMBER_6    &kp NUMBER_7     &kp NUMBER_8          &kp NUMBER_9           &kp NUMBER_0  &kp RIGHT_BRACKET
+&kp GREATER_THAN   &kp AT_SIGN      &kp MINUS     &kp EQUAL          &kp SLASH     &kp BACKSLASH                            &kp LEFT_ARROW  &kp DOWN_ARROW     &kp UP_ARROW       &kp RIGHT_ARROW              &kp COLON      &kp SEMICOLON
+       &kp LCTRL         &kp M  &kp AMPERSAND  &kp ASTERISK  &kp DOUBLE_QUOTES  &kp C_PLAY_PAUSE       &to 2        &to 0  &kp EXCLAMATION  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS             &trans
+                                        &kp B    &kp K_COPY        &kp K_PASTE         &kp SPACE  &kp ESCAPE  &lt 0 ENTER       &kp PERIOD       &kp COMMA        &kp ENTER              &kp BSPC
             >;
 
             sensor-bindings =
@@ -73,11 +73,11 @@
             //              |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &trans      &trans             &trans           &trans   &trans    &trans
-    &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3        &trans        &trans                          &kp PG_UP    &kp HOME             &kp UP          &kp END   &kp N0    &trans
-    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0      &kp CLCK                          &kp PG_DN    &kp LEFT           &kp DOWN        &kp RIGHT  &kp DEL  &kp BSPC
-    &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp K_PASTE        &trans   &trans  &trans  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &trans    &trans
-                                &trans        &trans        &trans        &trans  &kp DEL  &trans            &trans      &trans             &trans           &trans
+&kp PRINTSCREEN  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                &kp         &kp                &kp              &kp      &kp       &kp
+     &bt BT_CLR  &kp NUMBER_1  &kp NUMBER_2         &kp H  &kp NUMBER_3  &kp NUMBER_4                          &kp PG_UP    &kp HOME             &kp UP          &kp END   &kp N0       &kp
+            &kp  &kp NUMBER_4         &kp S         &kp D         &kp F      &kp CLCK                          &kp PG_DN    &kp LEFT           &kp DOWN        &kp RIGHT  &kp DEL  &kp BSPC
+      &kp LCTRL         &kp E         &kp X         &kp C         &kp V         &kp P       &to 0  &kp  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP      &kp       &kp
+                                      &kp B       &lt 0 0         &kp M     &kp SPACE  &kp ESCAPE  &kp               &kp         &kp                &kp              &kp
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
